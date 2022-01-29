@@ -122,7 +122,7 @@ This results in a `tinygo` binary in the `build` directory:
 
 ```shell
 $ ./build/tinygo version
-tinygo version 0.18.0 linux/amd64 (using go version go1.16 and LLVM version 11.0.0)
+tinygo version 0.22.0 linux/amd64 (using go version go1.17 and LLVM version 13.0.0)
 ```
 
 You have successfully built TinyGo from source. Congratulations!
@@ -147,6 +147,6 @@ These command may need to be re-run after some updates in TinyGo.
 
 There are also some extra tools you will need to install, depending on your operating system. These tools are gcc-avr, avr-libc, avrdude, and openocd. Check the additional requirements for your operating system:
 
-  * [Linux](../../getting-started/install/linux/)
-  * [MacOS](../../getting-started/install/macos/)
-  * [Windows](../../getting-started/install/windows/)
+  * [Linux](/getting-started/install/linux/)
+  * [MacOS](/getting-started/install/macos/)
+  * [Windows](/getting-started/install/windows/)
